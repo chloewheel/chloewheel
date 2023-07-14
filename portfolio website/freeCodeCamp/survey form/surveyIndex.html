@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <meta charset="UTF-8">
+  <head>
+
+
+    <title>Form Project</title>
+    <link rel = "stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+
+    <h1 id="title"> Survey Form Project </h1>
+    <p id="description" class="align"> For Free Code Camp Certification </p>
+
+    <form id="survey-form">
+    <div>  <label id="name-label" for="name">Name</label> </div>
+      <input class="dark" id="name" type="text" placeholder="FirstName LastName" required/> 
+
+     <div> <label id="email-label" for="email">Email</label> </div>
+      <input class="dark" id="email" type="email" placeholder="abcd@email.com" required/>
+
+     <div> <label id="number-label" for="number">Age</label> </div>
+      <input class="dark" id="number" type="number" min="10" max="100" placeholder="select your age"/>
+
+     <div> <label for="dropdown" id="role-label">Select your current Role</label> </div>
+      <select id="dropdown">
+        <option value="">select your role</option>
+        <option value="1"> Developer </option>
+        <option value="2"> Student </option>
+      </select>
+
+
+
+      <p id="reccomend-label"> How likely are you to reccomend us? </p>
+      
+     <div> <input name="likely" value="likely" id="r1" type="radio">
+      <label for="r1">Likely</label></div>
+
+
+      
+       <div> <input value="unlikely" name="likely" id="r2" type="radio">
+        <label for="r2">unlikely</label> </div>
+        
+        <p id="improvements-label">How can we Improve?</p>
+
+       
+      <div>  <input id="c1" value="1" type="checkbox">
+          <label for="c1"> 1 </label> </div>
+
+       
+       <div> <input id="c2" value="2" type="checkbox">
+         <label for="c2"> 2 </label> </div>
+
+       <div> <label for="comments">comments</label></div>
+        <textarea placeholder="Type Here" id="comments" rows="5" cols="100"></textarea>
+        
+      <div>  <input type="submit" id="submit" value="submit"></div>
+    </form>
+  </body>
+</html>

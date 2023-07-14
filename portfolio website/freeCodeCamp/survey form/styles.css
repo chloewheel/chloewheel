@@ -1,0 +1,31 @@
+body{
+    font-family: Tahoma;
+    background-color:#1b1b1b;
+    color:#f5f6f7;
+    margin:0 auto;
+    width:100%;
+    height:100vh;
+  }
+  
+  h1, .align{
+    text-align:center;
+    margin:1em auto;
+  }
+  
+  form{
+    width:50vw;
+    max-width:500px;
+    min-width:300px;
+    margin:0 auto;
+  }
+  
+  Textarea, select, .dark {
+    width:100%;
+    height:25px;
+    margin:5px 0px;
+    background-color:#0a0a23;
+    color:#ffffff;
+    border:none;  
+    padding-left:7px;
+  }
+  
