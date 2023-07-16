@@ -1,6 +1,16 @@
 /*bootstrap overrides*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.row{
+    margin-right:0;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
 body {
     background-color:var(--bs-dark);
     color:#ffffff;
@@ -44,7 +54,7 @@ body {
     font-weight:600;
 }
 /* About */
-.about{
+#about{
     width:85%;
 
 }
@@ -58,13 +68,28 @@ body {
     margin-bottom:20px;
 }
 
-.webDesigns{
+#webDesigns{
     background-color:#476588;
+    margin-top:20px;
 }
 
 .webDesignHeader{
     width: 317.6px;
     margin-top:20px;
 }
-
+.grid{
+    
+    font-size:19px;
+    
+}
+.projectTile{
+    margin-top:15px;
+    
+}
+.webDesignImg{
+    align-self: center;
+    margin-top:15px;
+    width:300px;
+    border-radius: 2%;
+}
 

@@ -1,0 +1,28 @@
+*{
+    margin:0 auto;
+  }
+  #title{
+    font-family:calibri;
+    text-align:center;
+    font-size:20px;
+    color:#205f3b;
+    margin:10px;
+  }
+  #image{
+    display:block;
+    max-width:100%;
+    margin:0 auto;
+  }
+  
+  p{
+    font-family:Tahoma;
+    font-size:20px;
+    text-align:center;
+    margin:15px;
+  }
+  h2{
+    font-family:calibri;
+    text-align:center;
+    font-size: 30px;
+    margin-top:1px;
+  }
