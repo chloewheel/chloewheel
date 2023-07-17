@@ -1,0 +1,142 @@
+*{
+    margin:0;
+  }
+  
+  nav{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    position:fixed;
+    width:15%;
+    min-width:270px;
+    background-color:#060930;
+    color:#eeeeee;
+    border-right:solid #eeeeee 2px;
+  }
+  
+  .nav-header{
+    font-size:40px;
+    font-family:roboto;
+    font-weight:bold;
+    margin-bottom:15px;
+    margin-left:15px;
+  }
+  
+  .nav-link{
+    font-family:roboto;
+    text-decoration:none;
+    border-top:solid #eeeeee 2px;
+    font-size:25px;
+    padding-left:27px;
+    padding-top:7px;
+    padding-bottom:7px;
+    color:#eeeeee;
+  }
+  .nav-link:last-of-type {
+    border-bottom: solid #eeeeee 2px;
+  }
+  
+  main{
+    width:79%;
+    background-color:#000000;
+    color:#eeeeee;
+    margin-left:267;
+    padding:54px;
+    overflow:hidden !important;
+  }
+    h1 {
+    font-family:roboto;
+    font-weight:bold;
+    font-size:30px;
+    margin-bottom:20px;
+  }
+  p, li{
+    font-family:roboto;
+    font-size:20px;
+    margin-bottom:10px;
+    width:90%;
+  }
+  .code-snippet{
+    background-color:#060930;
+    width:45%;
+    min-width:700px;
+    height:185px;
+    padding-top:10px;
+    padding-left:10px;
+    border-radius:5px;
+    margin-left:10px;
+    margin-bottom:10px; 
+  }
+  .code-snippet2{
+    background-color:#060930;
+    width:45%;
+    min-width:700px;
+    height:5vh;
+    padding-top:10px;
+    padding-left:10px;
+    border-radius:5px;
+    margin-left:10px;
+    margin-bottom:10px; 
+  }
+  h2{
+    font-family:roboto;
+    font-size:20px;
+    color:#eeeeee;
+    margin-bottom:10px;
+  }
+  .code-snippet3{
+    background-color:#060930;
+    width:45%;
+    min-width:700px;
+    height:8vh;
+    padding-left:10px;
+    border-radius:5px;
+    margin-left:10px;
+    margin-bottom:10px; 
+    }
+    
+    @media{
+      p
+      {color:#eeeeee;}
+      }
+  
+  .code-snippet4{
+    background-color:#060930;
+    width:45%;
+    min-width:700px;
+    height:8vh;
+    padding-left:10px;
+    border-radius:5px;
+    margin-left:10px;
+    margin-bottom:10px; 
+    }
+    .code-snippet5{
+    background-color:#060930;
+    width:45%;
+    min-width:700px;
+    height:10vh;
+    padding-left:10px;
+    border-radius:5px;
+    margin-left:10px;
+    margin-bottom:10px; 
+    }
+    .code-snippet6{
+    background-color:#060930;
+    width:45%;
+    min-width:700px;
+    height:11vh;
+    padding-left:10px;
+    border-radius:5px;
+    margin-left:10px;
+    margin-bottom:10px; 
+    }
+    .code-snippet7{
+    background-color:#060930;
+    width:45%;
+    min-width:700px;
+    height:12vh;
+    padding-left:10px;
+    border-radius:5px;
+    margin-left:10px;
+    margin-bottom:10px; 
+    }

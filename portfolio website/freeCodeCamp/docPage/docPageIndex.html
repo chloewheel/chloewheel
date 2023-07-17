@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title> Javascript documentation</title>
+
+</head>
+<body>
+  
+  <nav id="navbar">
+    <header class="nav-header">CSS Docs</header>
+    <a href="#Getting_Started" class="nav-link">Getting Started</a>
+    <a href="#Coloring" class="nav-link">Coloring</a>
+    <a href="#Sizing" class="nav-link">Sizing</a>
+    <a href="#Display_and_Grids" class="nav-link">Display and Grids</a>
+    <a href="#Conclusion" class="nav-link">Conclusion</a> 
+  </nav> 
+  <main id="main-doc">
+    <section class="main-section" id="Getting_Started">
+      <header><h1>Getting Started</h1></header>
+      <p>What you need: </p> 
+      <ul>
+      <li>Basic knowledge of HTML</li>
+      <li>A code editor, like VS Code or Atom</li>
+      <li>Basic understanding of design</li>
+      </ul>
+      <p>To help you get started with CSS, we've provided some basic HTML boilerplate below.</p>
+      <div class="code-snippet"><p><pre><code class="language-html" data-lang="html">&lt;!DOCTYPE HTML&gt; 
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"/&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;
+&lt;title&gt; Hello World! &lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Hello world&lt/h1&gt;
+&lt;p&gt;this is an introductory webpage to teach you the basic code of an html document!&lt/p&gt 
+</code></pre> </p></div>
+      <p>Once you have a basic HTML document you want to style, you need to create and link your CSS document. To link your document use the following code and place in in the head of your HTML document.</p>
+      <div class="code-snippet2"><p><pre><code class="language-html" data-lang="html"> &lt;link rel="stylesheet" href="styles.css"&gt; </code></pre></p></div>
+      
+<h2> Now you're ready to start coding with css!</h2>
+<p>in css, you always start with a selector. Selectors are most often associated with 
+  <ul>
+      <li>Classes</li>
+      <li>IDs</li>
+      <li>Elements</li>
+      </ul>
+       <p>You can see a full list of CSS selectors <a href="https://www.w3schools.com/"> on W3 schools.com </a> Begin your css document using the basic syntax below.</p>
+     <div class="code-snippet3"> <pre> <code>
+        p{
+        color:red;  
+        }</code></pre> </div>
+
+        <p> If your document is set up properly, any text in a &lt;p&gt; element should be red. 
+      
+    </section>
+    <section class="main-section" id="Coloring">
+      <header><h1>Coloring</h1></header>
+      <p>In CSS you can set the color of various elements on your webpage. There are multiple ways to set the color value: </p>
+      <ul>
+      <li>RGB</li>
+      <li>Hex</li>
+      <li>HSl</li>
+      <li>RGBA</li>
+      <li>Color Name</li>
+      </ul>
+
+      <p>On our getting started page, we chaged the text color using the color name red.</p>
+
+      <p>Lets use the RGB property to change the background-color of our h1 element to blue:</p>
+     <pre> <div class="code-snippet4"><code> 
+         h1{
+         background-color:rgb(0 , 0, 255);
+         }</code></div></pre>
+      <p>When using the RGB color property, the first number represents the red value, the second number represents the blue value and the third value represents the blue value. You can put any number between 0 and 255.</p>
+      <p>Now that we have a blue background on on our h1 element, the red text is hard to see.Lets use a hex code to change the text color to white.</p>
+      <p><div class="code-snippet5"><pre><code>
+         h1{
+         background-color:rgb(0, 0, 100);
+         color:#ffffff;
+         }
+          </code></pre></div></p>
+      <p>Hex codes work similaly to RGB. The first two characters represent the red value, the second two characters represent the green value and the last two characters represent the blue value. The values are comprised of the numbers 1-9 and letters a-f. the higher the letter or number, the higher the value.</p>
+  <p>now we want to make our P elements match our h1 element. We can start by changing the background color to blue using the hsl method. </p>  
+  <p><div class="code-snippet4"><pre><code>
+         p{
+         background-color:hsl(240, 100%, 50%)
+         }
+    </code></pre></div></p>
+
+    <p>hsl stands for hue, saturation, lightness. if you've done design work before, you have probably used the hsl color wheel in the past. The hue value goes from 0 to 360, the other two saturation and lightness are percentages. the higher the percentage the higher the saturation or lightness</p>
+
+    <p>Now we need to chabge the text color to white. We can do this using the RGBA method. Rgba stands for red, green, blue, alpha. the alpha number allows us to change the opacity of the color using a percentage value. </p>
+
+    <p><div class="code-snippet5"><pre><code>
+         p{
+         color:hsl(240 ,100% ,50% );
+         background-color:rgba(255 ,255 ,255, 50%);
+         }
+      </code></pre></div></p>
+    </section>
+    
+    <section class="main-section" id="Sizing">
+      <header><h1>Sizing</h1></header>
+      <p>CSS allows you to resize many of your elements including:</p>
+        <ul>
+      <li>Text</li>
+      <li>Images</li>
+      <li>Text Elements</li>
+      <li>Container Elements</li>
+      <li>Videos</li>
+      </ul>
+      <p>Text can be resized using various measurements. The first method is to enter the size of the text as xx-small, x-small, small, medium, large, x-large or xx-large. Lets set our h1 element to x-large</p>
+      <p><div class="code-snippet6"><pre><code>          
+         h1{
+         background-color:rgb(0, 0, 100);
+         color:#ffffff;
+         font-size:x-large;
+         }</code></pre></div></p>
+      <p>You can also resize the text using units of measure:</p>
+       <ul>
+      <li>px</li>
+      <li>em</li>
+      <li>rem</li>
+      </ul>
+      <p>Each of these measurements is relative to another element, meaning the size of the text will change as the size of the relative element changes.</p>
+     <p>You can also re-size images, Text-Elements and container elements by setting their width and height. When working with a website that needs to be compatible with both computers and mobile devices, you should use the percent method, or the viewport height (vh) and viewport width (vw), when setting the size of an element. lets go ahead and set the height of our body to 100vh.</p>
+     <p><div class="code-snippet3"><pre><code>         
+         body{
+         height:100vh;
+         }</code></pre></div></p>
+       <p>Now our height will always take up 100% of the viewport. We should also set the width to 100vw.</p>
+       <p><div class="code-snippet5"><pre><code>            
+         body{
+         height:100vh;
+         width:100vw;
+         }</code></pre></div></p>
+
+         <p>Once you've set your width and height, you can begin setting margins and padding. when setting these elements, you may end up adding to your width and height, so you may need to play around with your sizing properties to ensure your page appears how it's supposed to.</p>   
+    </section>
+    
+    <section class="main-section" id="Display_and_Grids">
+      <header><h1>Display and Grids</h1></header>
+      <p>The CSS Display Property allows you to re-arrange the structure of your webpage. We will go over the basic display properties. </p>
+         <ul>
+      <li>Block</li>
+      <p>The block display property is usually the default given by the html code to an element. This property allows items to display below each other, adding line breaks between elements.</p>
+      <p><div class="code-snippet3"><pre><code>
+         p{
+         display:block;
+         }
+        </code></pre></div></p>
+      <li>Inline-block</li>
+      <p>The Inline-block display property allows you to display items side by side. This property does not use line breaks.</p>
+      <p><div class="code-snippet3"><pre><code>
+         h1{
+         display:inline-block;
+         }
+        </code></pre></div></p>
+      <li>Flex</li>
+      <p>The Flex display property is the most diverse display property. It allows items to display in grid like rows and columns.To customize the way your flex item is displaying, you will need to use the flex-direction property. The flex direction property can be set to row, which displays items side by side, or column which displays items one below the other. Finally, when working with flex boxes, you will need to use the Justify-content property to achieve the desired alignment of your flex items. </p>
+      <p><div class="code-snippet7"><pre><code>
+          body{
+          display:flex;
+          flex-direction:row;
+          justify-content:center;
+          }
+        </code></pre></div></p>
+      <li>Grid</li>
+      <p> The Grid property allows you to display your items in a grid format. First you will need to set the display property to grid.</p>
+      <p><div class="code-snippet4"><pre><code>
+         body{
+         display:grid;
+         }
+        </code></pre></div></p>
+        <p>Next you will need to set the column gaps and the row gaps.</p>
+        <p><div class="code-snippet7"><pre><code>
+         body{
+         display:grid;
+         row-gap:30px;
+         column-gap:30px;
+         }
+          </code></pre></div></p>
+          <p>now you should have an evenly spaced grid to display your content in!</p>      
+      </ul>
+     
+    </section>
+    <section class="main-section" id="Conclusion">
+      <header><h1>Conclusion</h1></header>
+    <p>CSS is essential to building and designing your webpage. These docs went over the most basic functions of CSS. You can expand the capabilities of CSS using powerful libraries like <a href="https://getbootstrap.com/"> bootstrap </a> &  <a href="https://get.foundation/"> foundation. </a> </p>
+        
+    </section>
+  </main>
+
+  </main>
+</body>
+
+
+
+</html>
