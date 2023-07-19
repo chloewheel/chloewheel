@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" display="width=device-width,initial-scale=1.0"/> 
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesRedo.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet"> 
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">
+                <img id="header-img" class="center" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bcf2e3a0-1439-4302-8ad6-d7f6e9981afe/dffuw6o-804f1376-958c-45ec-8d61-9e013f658705.png/v1/fill/w_1280,h_1280,strp/cream_puffs_by_chloewheel1_dffuw6o-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2JjZjJlM2EwLTE0MzktNDMwMi04YWQ2LWQ3ZjZlOTk4MWFmZVwvZGZmdXc2by04MDRmMTM3Ni05NThjLTQ1ZWMtOGQ2MS05ZTAxM2Y2NTg3MDUucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.zWIms57DzEWez_ofpXpPCVMAV7lu53lpmDF7-enEztQ" />
+                Cream de la Cream Puffs
+            </a>
+        
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="justify-content-end collapse navbar-collapse" id="navbarNav">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Menu</a>   
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Locations</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <!--Hero Image-->
+    <img class="hero-image" src="https://images.pexels.com/photos/9328799/pexels-photo-9328799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="A pile of cream puffs being dusted in powdered sugar">
+
+    <!--About Us-->
+    <div id="aboutUs" class="text-center">
+        <h1 class="sectionHeader">About Us</h1>
+        <div class="row grid">
+            <div class="col creamPuffVideo">
+                <iframe id="video" src="https://www.youtube.com/embed/e2_1g2WscTQ"> </iframe>
+            </div>
+            <div class="col ourStory">
+                <h1 class="subsectionHeader">Our Story</h1>
+
+                <p class="ourStoryParagraph">Cream de la Cream Puffs is a local bakery specializing in 
+                    puff pastries of all kinds. We source all of our ingredients
+                    locally, working with farms across the tennessee valley to
+                    ensure the freshest ingreedients. 
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="menu"> 
+        <h1 class="sectionHeader"> Menu </h1>
+        <p>Our menu changes weekly to ensure the freshness of our locally sourced ingredients. We believe the future is most secure when we support local farms and orchards in the Tennesee valley. To see our menu for each week subscribe to our Menu E-mails. Don't worry, we wont send you any marketing E-mails.</p>
+        <form id="form"  action="https://www.freecodecamp.com/email-submit">
+
+            <input id="email" placeholder="yourEmail@email.com" class="center" type="email" name="email"></input>
+            
+            <input id="submit" class="center" type="submit"></input>
+          </form>
+      
+    </div>
+
+    <div class="locations text-center">
+        <h1 class="sectionHeader">Locations</h1>
+
+        <div class="row grid">
+            <div class="col hsv">
+                <h1 class = "subsectionHeader"> Huntsville</h1>
+                <img class="locationImg" src="https://images.unsplash.com/photo-1505275350441-83dcda8eeef5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"></img>
+            </div>
+            <div class="col mad">
+                <h1 class = "subsectionHeader"> Madison</h1>
+                <img class="locationImg" src="https://images.unsplash.com/photo-1525648199074-cee30ba79a4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"></img>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

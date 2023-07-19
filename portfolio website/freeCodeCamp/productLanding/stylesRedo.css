@@ -1,0 +1,121 @@
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.row{
+    margin-right:0;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background-color:var(--bs-dark);
+    color:#ffffff;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: .05;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;}
+
+ img {
+ width: 50px;
+ 
+ height: auto; }
+.nav-link{
+    color:#ffffff;
+    
+}
+.navbar{
+    --bs-navbar-hover-color:#FFA5B3;
+}
+.header-img a{
+    color:#ffffff;
+}
+.hero-image{
+    width:100%;
+    height:70vh;
+    object-fit:cover; 
+    margin-top:-80px;
+  }
+
+  .navbar-brand{
+    color:#ffffff;
+    font-family: playfair display;
+    font-size: 3.5vh;
+
+  }
+  .navbar-brand:hover{
+    color:#ffffff;
+  }
+  .sectionHeader{
+    color:#000000;
+    background-color:#ffffff;
+    font-family: playfair display;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:15px;
+    font-weight: bold;
+  }
+  .ourStory{
+    background-color:#E1887E;
+    font-family: playfair display;
+    font-weight:bold;
+  }
+  .grid{
+    height:200px;
+  }
+  #video{
+    width:500px;
+    height:250px;
+    align-self: center;
+    padding-top:10px;
+  }
+  element{
+    margin-bottom:0px;
+  }
+  h1{
+    margin-bottom: 0;
+  }
+  .subsectionHeader{
+    margin-top:10px;
+    font-family: playfair display;
+  }
+  .ourStoryParagraph{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:30px;
+  }
+  .menu{
+    width:100vw;
+    Height:200px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top:50px;
+    text-align: center;
+    font-family: playfair display;
+    font-weight: bold;
+    padding-left:40px;
+    padding-right:40px;
+  }
+  #email{
+    border-color: #E1887E;
+    border-style: solid;
+    text-align: center;
+    font-family: 'Segoe UI';
+  }
+  #submit{
+    border-color: #E1887E;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Segoe UI';
+  }
+  .hsv{
+    background-color:#E1887E;
+  }
+  .locationImg{
+    align-self: center;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:40vw;
+    height: auto;
+  }
