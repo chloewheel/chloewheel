@@ -95,4 +95,35 @@ body {
     width:300px;
     border-radius: 2%;
 }
+.logoDesignHeader{
+    width:317.3px;
+    height:auto;
+    margin-top:20px;
+    margin-bottom:10px;
+
+}
+.logoSize1{
+    align-self: center;
+    height:120px;
+    width:auto;
+    margin-bottom:10px;
+}
+.logoSize2{
+    align-self: center;
+    height:150px;
+    width:auto;
+    margin-bottom:10px;
+}
+.logoSize3{
+    align-self: center;
+    height:90px;
+    width:auto;
+    margin-bottom:10px;
+}
+.logoSize4{
+    align-self: center;
+    height:170px;
+    width:auto;
+    margin-bottom:10px;  
+}
 
