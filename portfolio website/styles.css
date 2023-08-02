@@ -120,5 +120,24 @@ body {
     width:auto;
     margin-bottom:10px;
 }
-
-
+.logoSize4{
+    height:180px;
+    align-self: center;
+    width:auto;
+    margin-bottom:10px;
+}
+.otherProjectsHeader{
+    width:370.2px;
+    height:auto;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+#otherProjects{
+    background-color: #476588;
+    padding-bottom:30px;
+}
+.otherProjectImg{
+    border-radius:2%;
+    height:300px;
+    width:auto;
+}
