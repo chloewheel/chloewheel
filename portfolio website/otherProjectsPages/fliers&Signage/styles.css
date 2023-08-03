@@ -1,0 +1,49 @@
+/*bootstrap overrides*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.row{
+    margin-right:0;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background-color:var(--bs-dark);
+    color:#ffffff;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: .05;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;}
+
+ img {
+ width: 90px;
+ 
+ height: auto; }
+.nav-link{
+    color:#ffffff;
+    
+}
+.navbar{
+    --bs-navbar-hover-color:#FFA5B3;
+}
+
+.center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+/* FontAwesome edit*/
+i{
+    font-size: 15px;
+    justify-self: center;
+}
+.PDFImages{
+    align-self: center;
+    width:300px;
+    height:auto;
+    margin-top: 30px;
+}
