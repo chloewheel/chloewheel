@@ -6,6 +6,7 @@ a{
 }
 .row{
     margin-right:0;
+    --bs-gutter-x:0;
 }
 .col{
     display: flex;
@@ -36,17 +37,13 @@ body {
     justify-content:center;
     align-items:center;
   }
-/* FontAwesome edit*/
-i{
-    font-size: 15px;
-    justify-self: center;
-}
-.sMImages{
-    align-self: center;
+
+  .PDFImages{
     width:450px;
-    height:auto;
-}
-.disclaimer{
+    height: auto;
+    margin-top:30px;
+  }
+  .disclaimer{
     margin-top:20px;
     margin-left:40px;
     margin-right: 40px;
